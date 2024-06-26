@@ -1,0 +1,127 @@
+.cart {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cart h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.cart-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.cart-item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.cart-item-details {
+  flex-grow: 1;
+}
+
+.cart-item-details h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.cart-item-details p {
+  margin: 5px 0;
+}
+
+.cart-item-details label {
+  font-weight: bold;
+}
+
+.cart-item-details input[type="number"] {
+  width: 50px;
+  margin-left: 10px;
+}
+
+.cart-item-details button {
+  background-color: #ff9900;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.cart-item-details button:hover {
+  background-color: #e68a00;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
+}
+
+.cart-total h3 {
+  margin: 0;
+}
+
+.cart-total button {
+  background-color: #ff9900;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.cart-total button:hover {
+  background-color: #e68a00;
+}
+
+.saved-for-later {
+  margin-top: 40px;
+}
+
+.saved-for-later h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.saved-for-later .cart-item {
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.saved-for-later .cart-item-details button {
+  background-color: #ff9900;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.saved-for-later .cart-item-details button:hover {
+  background-color: #e68a00;
+}
+
+.header {
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+}
